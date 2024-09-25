@@ -1,0 +1,49 @@
+
+table {
+    width: auto;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+
+caption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+th {
+    width: 170px;
+    text-align: left;
+    padding: 8px 4px;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+
+td {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: blue;
+    border: 1px solid black;
+    padding: 8px 4px;
+}
+
+
+.destacar td {
+    background-color: red;
+    color: white;
+}
+
+
+tfoot td {
+    text-align: center;
+    font-size: 12px;
+    padding: 8px;
+    background-color: #f0f0f0;
+    color: blue;
+}
